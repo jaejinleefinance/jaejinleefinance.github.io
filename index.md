@@ -2,7 +2,7 @@
 layout: default
 header-includes:
     - \usepackage {hyperref}
-    - \hypersetup {colorlinks = true, linkcolor = red, urlcolor = red}
+    - \hypersetup {colorlinks = true, linkcolor = blue, urlcolor = blue}
 ---
 <img style="width=209px;height=375px;float:left;padding:-5px;padding-right:100px"
 src="/images/photo2.png" alt="" width="226" height="246">
