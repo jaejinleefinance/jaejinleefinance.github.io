@@ -15,4 +15,4 @@ Phone: +1 (217) 904-9524\
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 
-[**Curriculum Vitae**](/Jaejin_CV.pdf)
+underline([**Curriculum Vitae**](/Jaejin_CV.pdf))
