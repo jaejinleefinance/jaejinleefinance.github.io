@@ -1,8 +1,7 @@
 ---
 layout: default
-header-includes:
-    - \usepackage {hyperref}
-    - \hypersetup {colorlinks = true, linkcolor = blue, urlcolor = blue}
+link-color: red
+urlcolor: blue
 ---
 <img style="width=209px;height=375px;float:left;padding:-5px;padding-right:150px"
 src="/images/photo2.png" alt="" width="226" height="246">
