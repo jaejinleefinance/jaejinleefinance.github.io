@@ -8,7 +8,7 @@ src="/images/photo2.png" alt="" width="226" height="246">
 
 \
 \
-PhD student in Finace\
+PhD student in Finance\
 University of Illinois at Urbana-Champaign.
 
 Phone: +1 (217) 904-9524\
