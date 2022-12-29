@@ -1,6 +1,6 @@
 ---
 layout: default
-link-color: red
+link-color: blue
 urlcolor: blue
 ---
 <img style="width=209px;height=375px;float:left;padding:-5px;padding-right:150px"
