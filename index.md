@@ -9,5 +9,5 @@ Welcom to my webite! I am a 4th year PhD student in Finace at University of Illi
 Phone: +1 (217) 904-9524\
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
-\raggedright
-[CV](/Jaejin_CV.pdf)
+
+<p class="text-right">[CV](/Jaejin_CV.pdf)</p>
