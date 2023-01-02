@@ -4,7 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-#### Working Papers <br>
-**Jaejin Lee** ... 2021. "[Distrust Spillover](/publications/McGee_Moniz_2021_PRQ.pdf)" <br><br>
-*Contents..*<br>
+#### **Working Papers** <br>
+"Distrust Spillover"\
+I uncover a new spillover risk for the banking institutions from affilated investment adivosry companies.\
+* Presentation: FMA 2022, 
 
