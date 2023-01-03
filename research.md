@@ -13,6 +13,6 @@ permalink: /research/
 <br>
 
 ["Portoflio Allocation and Business Connections: Evidence from Mutual Fund Misconduct"]()
-  * I identify a systemic increasing trends of portfolio weights of mutual fund companies on thier pension client stocks after revelation of their advisory fraud.</font>
+  * <font size="2"> I identify a systemic increasing trends of portfolio weights of mutual fund companies on thier pension client stocks after revelation of their advisory fraud.</font>
     * <font size="2"> Presentation: UIUC, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022, SWFA 2023 (scheduled)</font>
 
