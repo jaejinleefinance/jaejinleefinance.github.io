@@ -4,5 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-### Teaching Assistant <br>
-Financial Management
+#### Teaching Assistant <br>
+<br>
+| ##### University of Illinios at Urbana-Champaign
+|     Corporate Finance (FIN 221)                 Fall 2021, Spring 2022
