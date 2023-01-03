@@ -13,4 +13,4 @@ permalink: /teaching/
 
 #### Teaching Assistant <br>
 #### University of Illinios at Urbana-Champaign
-   <div class="nobullet">* Corporate Finance (FIN 221) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fall 2021, Spring 2022</div>
+   <div class="nobullet"> * Corporate Finance (FIN 221) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fall 2021, Spring 2022 </div>
