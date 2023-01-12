@@ -4,7 +4,7 @@ link-color: blue
 urlcolor: blue
 ---
 <img style="width=209px;height=375px;float:left;padding:-5px;padding-right:120px"
-src="/images/photo5.png" alt="" width="332" height="407">
+src="/images/photo6.png" alt="" width="332" height="407">
 
 \
 \
