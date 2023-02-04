@@ -8,6 +8,8 @@ src="/images/photo6.png" alt="" width="332" height="407">
 
 \
 \
+\
+\
 PhD student in Finance\
 University of Illinois at Urbana-Champaign.
 
