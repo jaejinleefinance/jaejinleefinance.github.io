@@ -3,7 +3,7 @@ layout: default
 link-color: blue
 urlcolor: blue
 ---
-<img style="width=209px;height=375px;float:left;padding:-5px;padding-right:100px"
+<img style="width=209px;height=375px;float:left;padding:-5px;padding-right:80px"
 src="/images/photo6.png" alt="" width="332" height="407">
 
 \
