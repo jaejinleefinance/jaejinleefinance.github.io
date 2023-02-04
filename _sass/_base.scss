@@ -88,15 +88,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: #3B5998;
+    color: #224b8d;
     text-decoration: none;
 
     &:visited {
-        color: darken(#3B5998, 0%);
+        color: darken(#224b8d, 0%);
     }
 
     &:hover {
-        color: #3B5998;
+        color: #224b8d;
         text-decoration: underline;
     }
 }
