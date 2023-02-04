@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 #### **Working Papers** <br>
-
+\
 ["Distrust Spillover on Banks: The Impact of Financial Advisory Misconduct"](/publications/Distrust_Spillover_on_Banks_J.pdf)<br> 
   &nbsp;&nbsp;&nbsp; <font size="2"> I uncover a new spillover risk for the banking institutions from affilated investment adivosry companies.</font> 
   * <font size="2"> Presentation: UIUC, FMA 2022, AFA Poster 2023, 3rd Boca Corpoate Finance and Governance Conference, SWFA 2023 (scheduled)</font>
