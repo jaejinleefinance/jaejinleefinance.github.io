@@ -12,6 +12,7 @@ permalink: /research/
   * <font size="2"> Presentation: UIUC, FMA 2022, AFA Poster 2023, 3rd Boca Corpoate Finance and Governance Conference, SWFA 2023 (scheduled)</font>
 
 <br />
+<br />
 
 [Hurting the Fund Returns: Business Ties Constraints and Portfolio Misallocation]()<br> 
   &nbsp;&nbsp;&nbsp; <font size="2"> I identify a systemic increasing trends of portfolio weights of mutual fund companies on thier pension client stocks after revelation of their advisory fraud.</font> 
