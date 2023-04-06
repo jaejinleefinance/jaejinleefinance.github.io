@@ -16,6 +16,6 @@ permalink: /research/
 <br />
 
 [Hurting the Fund Returns: Business Ties Constraints and Portfolio Misallocation]()<br>\
-  &nbsp;&nbsp;&nbsp; <font size="2.5"> I identify a systemic pattern of investment decision by investment companies under 401(k) pension business.</font> 
+  &nbsp;&nbsp;&nbsp; <font size="2.5"> I identify a systemic pattern of investment decision by asset managment firms under 401(k) pension business.</font> 
   * <font size="2.5"> Presentation: UIUC, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022, Southwestern Finance Association 2023</font>
 
