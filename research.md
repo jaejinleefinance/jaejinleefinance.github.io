@@ -8,7 +8,7 @@ permalink: /research/
 
 \
 \
-[Political Connections and Public Pension Fund Investments: Evidence from Private Equity]()<br>\
+[Political Connections and Public Pension Fund Investments: Evidence from Private Equity](/publications/Political_Connections_Pension_Funds.pdf)<br>\
   &nbsp;&nbsp;&nbsp; <font size="3"> I provide direct evidence of quid pro quo in the private equity investments of U.S public pension funds.</font> 
   * <p style="font-family: Times New Roman; font-size: 13pt; font-style:italic"> Presentation: UIUC</p>
 
