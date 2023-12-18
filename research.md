@@ -17,7 +17,7 @@ permalink: /research/
 
 [Distrust Spillover on Banks: The Impact of Investment Advisory Misconduct](/publications/Distrust_Spillover_on_Banks_J.pdf)<br>\
   &nbsp;&nbsp;&nbsp; <font size="3"> I uncover a channel through which distrust spills over from fraudulent investment advisory firms to their affiliated banks.</font> 
-  * <font size="3"> Presentation: UIUC, FMA 2022, AFA Poster 2023, 3rd Boca Corpoate Finance and Governance Conference, Southwestern Finance Association 2023</font>
+  * <font size="3"> Presentation: UIUC, FMA 2022, AFA 2023 (Poster), 3rd Boca Corpoate Finance and Governance Conference, Southwestern Finance Association 2023</font>
 
 <br />
 <br />
