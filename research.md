@@ -30,5 +30,3 @@ permalink: /research/
 <br />
 
 #### **Work in Progress** <br>
-
-\
