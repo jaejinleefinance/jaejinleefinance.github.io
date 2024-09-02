@@ -12,3 +12,8 @@ University of Illinios at Urbana-Champaign<br>
 
   * <font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span> </font>
     - <font size="2"> Head Professor: Julian Reif</font>
+
+* <p style="font-family: Times New Roman; font-size: 13pt"> Presentation: UIUC, SFS Cavalcade North America 2024, 7th Advances in VC & PE Research Online Workshop, FMA 2024 (scheduled)</p>
+
+<br />
+<br />
