@@ -24,5 +24,5 @@ permalink: /research/
   * <p style="font-family: Times New Roman; font-size:13pt">  Presentation: UIUC, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022, Southwestern Finance Association 2023, FMA 2023</p>
  
   
-  \
+\
 #### **Work in Progress** <br>
