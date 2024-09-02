@@ -4,7 +4,9 @@ title: Teaching
 permalink: /teaching/
 ---
   
-#### **Teaching** <br>
+#### **Teaching**<br>
+
+\
 \
 * <p style="font-family: Times New Roman; font-size: 13pt"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></p>
   - <p style="font-family: Times New Roman; font-size: 12pt"> Head Professor: Julian Reif </p><br>
