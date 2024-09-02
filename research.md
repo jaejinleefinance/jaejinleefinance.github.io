@@ -27,6 +27,5 @@ permalink: /research/
 
 <br />
 <br />
-<br />
 
 #### **Work in Progress** <br>
