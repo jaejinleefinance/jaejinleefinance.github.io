@@ -21,7 +21,7 @@ urlcolor: black
 
 <br />
 
-[<u><b>Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</b></u>]()<br>\
+[<u><b>Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</b></u>](/publications/Business_Ties_and_Portfolio_Allocation.pdf)<br>\
   &nbsp;&nbsp;&nbsp; <font size="3"> I identify a systemic pattern of inferior investment decisions made by asset managment firms in the 401(k) pension business due to thier conflicts of interest with clients.</font> 
   * <p style="font-family: Times New Roman; font-size:13pt">  Presentation: UIUC, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022, Southwestern Finance Association 2023, FMA 2023</p>
  
