@@ -31,8 +31,6 @@ urlcolor: black
 
 \
 What Boards Talk to Decide? Evidence from Public Pension Investments<br>
- 
-<br />
 
 Measuring Municipal Political Risks
  
