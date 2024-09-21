@@ -30,7 +30,7 @@ urlcolor: black
 #### **Work in Progress** <br>
 
 \
-What Boards Talk to Decide? Evidence from Public Pension Investments<br>\
+What Boards Talk to Decide? Evidence from Public Pension Investments<br>
  
 <br />
 
