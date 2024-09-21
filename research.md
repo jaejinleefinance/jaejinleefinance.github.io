@@ -28,3 +28,11 @@ urlcolor: black
 <br />
   
 #### **Work in Progress** <br>
+
+\
+[<b>What Boards Talk to Decide? Evidence from Public Pension Investments</b>]()<br>\
+ 
+<br />
+
+[<b>Measuring Municipal Political Risks</b>]()<br>\
+ 
