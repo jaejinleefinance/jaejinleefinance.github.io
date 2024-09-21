@@ -30,9 +30,9 @@ urlcolor: black
 #### **Work in Progress** <br>
 
 \
-<b>What Boards Talk to Decide? Evidence from Public Pension Investments</b><br>\
+What Boards Talk to Decide? Evidence from Public Pension Investments<br>\
  
 <br />
 
-<b>Measuring Municipal Political Risks</b><br>
+Measuring Municipal Political Risks
  
