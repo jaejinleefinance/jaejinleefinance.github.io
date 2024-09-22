@@ -12,7 +12,9 @@ src="/images/photo6.png" alt="" width="332" height="407">
 \
 Ph.D. candidate in Finance\
 University of Illinois at Urbana-Champaign.
-<br>
+
+
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
+
 <br>
 [**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)
