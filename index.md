@@ -13,9 +13,8 @@ src="/images/photo6.png" alt="" width="332" height="407">
 Ph.D. candidate in Finance\
 University of Illinois at Urbana-Champaign.
 
-Phone: +1 (217) 904-9524\
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 <br>
 
-[**Curriculum Vitae**](/Jaejin_CV.pdf)
+[**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)
