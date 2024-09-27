@@ -32,6 +32,7 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 #### **Working Papers** <br>
 
+
 <p><b><font size="3" color="green">[Job Market Paper]</font></b></p>
 [<u><b><font size="3">Political Connections and Public Pension Fund Investments: Evidence from Private Equity</font></b></u>](/publications/Political_Connections_Pension_Funds.pdf)<br>
   &nbsp;&nbsp;&nbsp; <font size="3"> I identify the causal effect of political connections on the private equity investments of U.S public pension funds.</font> 
@@ -65,8 +66,8 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 #### **Teaching**<br>
   
-* <p><font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></font>
-  - <font size="2"> Head Professor: Julian Reif </font></p>
+* <p><font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></font></p>
+  - <p></p><font size="2"> Head Professor: Julian Reif </font></p>
   
-* <p><font size="3"> Corporate Finance (FIN 221, Undergraduate) <span style="float:right;"> Fall 2021, Spring 2022 </span></font>
-  - <font size="2"> Head Professor: Michael Dyer </font><br></p>
+* <p><font size="3"> Corporate Finance (FIN 221, Undergraduate) <span style="float:right;"> Fall 2021, Spring 2022 </span></font></p>
+  - <p><font size="2"> Head Professor: Michael Dyer </font><br></p>
