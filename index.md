@@ -7,8 +7,8 @@ urlcolor: blue
 src="/images/photo6.png" alt="" width="245" height="300"></p>
 
 <br>
-<p>Ph.D. candidate in Finance</p>
-<p>University of Illinois at Urbana-Champaign</p>
+Ph.D. candidate in Finance
+University of Illinois at Urbana-Champaign
 
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
