@@ -68,8 +68,8 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 #### **Teaching**<br>
   
-* <p><font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></font></p>
-  - <p><font size="2"> Head Professor: Julian Reif </font></p>
+* <p><font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></font>
+  - <font size="2"> Head Professor: Julian Reif </font></p>
   
-* <p><font size="3"> Corporate Finance (FIN 221, Undergraduate) <span style="float:right;"> Fall 2021, Spring 2022 </span></font></p>
-  - <p><font size="2"> Head Professor: Michael Dyer </font><br></p>
+* <p><font size="3"> Corporate Finance (FIN 221, Undergraduate) <span style="float:right;"> Fall 2021, Spring 2022 </span></font>
+  - font size="2"> Head Professor: Michael Dyer </font><br>
