@@ -23,8 +23,6 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 <br>
 <br>
 <br>
-<br>
-<br>
 <hr width="100%" size="2">
 
 #### **Job Market Paper** <br>
