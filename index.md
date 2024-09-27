@@ -58,3 +58,16 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 What Boards Talk to Decide? Evidence from Public Pension Investments<br>
 
 Measuring Municipal Political Risks
+
+
+<br>
+<hr width="100%" size="2">
+<br>
+
+#### **Teaching**<br>
+  
+* <font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></font>
+  - <font size="2"> Head Professor: Julian Reif </font><br>
+ 
+* <font size="3"> Corporate Finance (FIN 221, Undergraduate) <span style="float:right;"> Fall 2021, Spring 2022 </span></font>
+  - <font size="2"> Head Professor: Michael Dyer </font><br>
