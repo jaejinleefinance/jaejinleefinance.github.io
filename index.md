@@ -51,6 +51,8 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
   * <p style="font-family: Times New Roman; font-size:13pt">  Presentation: UIUC, FMA 2023, Southwestern Finance Association 2023, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022</p>
  
 <br />
+<hr width="100%" size="2">
+<br>
   
 #### **Work in Progress** <br>
 
