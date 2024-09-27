@@ -6,7 +6,6 @@ urlcolor: blue
 <img style="width=111px;height=200px;float:left;padding:-5px;padding-right:50px"
 src="/images/photo6.png" alt="" width="245" height="300">
 \
-\
 Ph.D. candidate in Finance\
 University of Illinois at Urbana-Champaign
 
