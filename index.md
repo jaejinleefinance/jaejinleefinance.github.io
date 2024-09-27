@@ -28,9 +28,9 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 <br>
 <br>
 <br>
-<hr width="100%" size="2">
 
 #### **Working Papers** <br>
+<hr width="100%" size="2">
 
 \
 [<u><b><font size="3">Political Connections and Public Pension Fund Investments: Evidence from Private Equity</font></b></u>](/publications/Political_Connections_Pension_Funds.pdf)<br>
@@ -50,9 +50,9 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
   * <p style="font-family: Times New Roman; font-size:13pt">  Presentation: UIUC, FMA 2023, Southwestern Finance Association 2023, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022</p>
  
 <br />
-<hr width="100%" size="2">
   
 #### **Work in Progress** <br>
+<hr width="100%" size="2">
 
 
 <p><font size="3">What Boards Talk to Decide? Evidence from Public Pension Investments</font></p>
@@ -61,9 +61,9 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 
 <br>
-<hr width="100%" size="2">
 
 #### **Teaching**<br>
+<hr width="100%" size="2">
   
 * <font size="3"> Big Data Analytics (FIN 550, Graduate) <span style="float:right;"> Fall 2024 </span></font>
   - <font size="2"> Head Professor: Julian Reif </font>
