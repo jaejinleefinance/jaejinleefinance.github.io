@@ -23,7 +23,6 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 <br>
 <hr width="100%" size="2">
 <br>
-<br>
 
 #### **Working Papers** <br>
 
