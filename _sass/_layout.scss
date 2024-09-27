@@ -72,6 +72,7 @@
         .trigger {
             clear: both;
             display: none;
+            margin-left: -20px; /* Adjust the value as needed */
         }
 
         &:hover .trigger {
