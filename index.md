@@ -15,12 +15,9 @@ University of Illinois at Urbana-Champaign
 
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
-<u>[**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)</u>
+[**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)
 
 
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
