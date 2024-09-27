@@ -40,13 +40,13 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 <br />
 
-[<u><b><font size="3">Distrust Spillovers from Financial Advisors to Bank Branches</font></b></u>](/publications/Distrust_Spillover_on_Banks.pdf) (solo-authored)<br>
+[<u><b><font size="3">Distrust Spillovers from Financial Advisors to Bank Branches</font></b></u>](/publications/Distrust_Spillover_on_Banks.pdf) <font size="2">(solo-authored)</font><br>
   &nbsp;&nbsp;&nbsp; <font size="3"> I identify a channel through which distrust spills over from investment advisory firms involved in misconduct to their affiliated banks.</font> 
   * <p style="font-family: Times New Roman; font-size: 13pt">  Presentation: UIUC, AFA 2023 (Poster), 3rd Boca Corpoate Finance and Governance Conference, Southwestern Finance Association 2023, FMA 2022</p>
 
 <br />
 
-[<u><b><font size="3">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</font></b></u>](/publications/Business_Ties_and_Portfolio_Allocation.pdf) (solo-authored)<br>
+[<u><b><font size="3">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</font></b></u>](/publications/Business_Ties_and_Portfolio_Allocation.pdf) <font size="2">(solo-authored)</font><br>
   &nbsp;&nbsp;&nbsp; <font size="3"> I identify a systemic pattern of inferior investment decisions made by asset managment firms in the 401(k) pension business due to thier conflicts of interest with clients.</font> 
   * <p style="font-family: Times New Roman; font-size:13pt">  Presentation: UIUC, FMA 2023, Southwestern Finance Association 2023, World Finance Banking Symposium 2022, New Zealand Finance Meeting 2022</p>
  
