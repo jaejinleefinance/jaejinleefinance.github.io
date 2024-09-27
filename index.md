@@ -11,6 +11,9 @@ src="/images/photo6.png" alt="" width="245" height="300">
 Ph.D. candidate in Finance\
 University of Illinois at Urbana-Champaign
 
+I am on the job market this year.
+I will be attending FMA and AFA.
+
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 [**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)
