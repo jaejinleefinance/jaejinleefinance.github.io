@@ -55,10 +55,9 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 #### **Work in Progress** <br>
 
 
-<font size="3">What Boards Talk to Decide? Evidence from Public Pension Investments</font>
+<p><font size="3">What Boards Talk to Decide? Evidence from Public Pension Investments</font></p>
 
-
-<font size="3">Measuring Municipal Political Risks</font>
+<p><font size="3">Measuring Municipal Political Risks</font></p>
 
 
 <br>
