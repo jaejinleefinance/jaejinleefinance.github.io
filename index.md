@@ -72,4 +72,4 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
   - <font size="2"> Head Professor: Julian Reif </font></p>
   
 * <p><font size="3"> Corporate Finance (FIN 221, Undergraduate) <span style="float:right;"> Fall 2021, Spring 2022 </span></font>
-  - font size="2"> Head Professor: Michael Dyer </font><br>
+  - <font size="2"> Head Professor: Michael Dyer </font><br>
