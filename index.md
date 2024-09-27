@@ -7,14 +7,15 @@ urlcolor: blue
 src="/images/photo6.png" alt="" width="245" height="300"></p>
 
 <br>
-Ph.D. candidate in Finance\
-University of Illinois at Urbana-Champaign
+<p>Ph.D. candidate in Finance\
+University of Illinois at Urbana-Champaign</p>
 
 E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 [**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)
 
 
+<br>
 <br>
 <br>
 <br>
