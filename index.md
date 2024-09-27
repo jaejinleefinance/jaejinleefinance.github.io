@@ -3,9 +3,8 @@ layout: default
 link-color: blue
 urlcolor: blue
 ---
-<img style="width=111px;height=200px;float:left;padding:-5px;padding-right:50px"
+<img style="width=111px;height=200px;float:left;padding:-5px;padding-right:55px"
 src="/images/photo6.png" alt="" width="245" height="300">
-\
 \
 Ph.D. candidate in Finance\
 University of Illinois at Urbana-Champaign
@@ -15,6 +14,7 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 [**Curriculum Vitae (CV)**](/Jaejin_CV.pdf)
 
 
+<br>
 <br>
 <br>
 <br>
