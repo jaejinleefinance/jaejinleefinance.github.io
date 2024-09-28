@@ -8,7 +8,7 @@ src="/images/photo6.png" alt="" width="245" height="300">
 
 \
 \
-Ph.D. Candidate in Finance\
+Ph.D. candidate in Finance\
 University of Illinois at Urbana-Champaign
 
 I am on the job market this year.\
