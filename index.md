@@ -25,7 +25,7 @@ E-mail: [jaejinl2@illinois.edu](mailto:jaejinl2@illinois.edu)
 
 #### **Job Market Paper** <br>
 
-[<u><b><font size="3">Do Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections</font></b></u>](/publications/Political_Connections_Pension_Funds.pdf)<br>
+[<u><b><font size="3">How Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections</font></b></u>](/publications/Political_Connections_Pension_Funds.pdf)<br>
   &nbsp;&nbsp;&nbsp; <font size="3"> I identify the causal effect of political connections on the private equity investments of U.S public pension funds.</font>
   * <p style="font-family: Times New Roman; font-size: 13pt"> Semi-finalist for the FMA Best Paper Award, 2024</p>
   * <p style="font-family: Times New Roman; font-size: 13pt"> Presentation: UIUC, SFS Cavalcade North America 2024, 7th Advances in VC & PE Research Online Workshop, FMA 2024 (scheduled)</p>
