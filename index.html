@@ -37,8 +37,7 @@ body {
   margin: 0 auto;
 }
 
-/* ════════════ LEFT SIDEBAR ════════════
-   Colonnelli: left-aligned text, photo at top, same top padding as main */
+/* ════════════ LEFT SIDEBAR ════════════ */
 .sidebar {
   width: 300px;
   flex-shrink: 0;
@@ -55,7 +54,7 @@ body {
   width: 100%;
   max-width: 180px;
   display: block;
-  margin-bottom: 18px;
+  margin: 0 auto 18px auto;
 }
 
 .sidebar-name {
@@ -98,8 +97,7 @@ body {
 }
 .s-block a:hover { color: #000; text-decoration: underline; }
 
-/* ════════════ RIGHT MAIN COLUMN ════════════
-   Same top padding as sidebar so first item aligns with photo top */
+/* ════════════ RIGHT MAIN COLUMN ════════════ */
 .main {
   flex: 1;
   min-width: 0;
@@ -119,7 +117,7 @@ body {
   letter-spacing: 0;
 }
 
-/* CV link — first item, no top margin so it aligns with photo */
+/* CV link */
 a.section-heading {
   display: block;
   color: #0645ad;
@@ -229,7 +227,10 @@ a.section-heading:hover { opacity: 0.75; }
   .page { flex-direction: column; max-width: 100%; }
   .sidebar {
     position: static; width: 100%; height: auto;
-    padding: 32px 24px; text-align: left;
+    padding: 32px 24px; text-align: center;
+  }
+  .sidebar img {
+    margin: 0 auto 18px auto;
   }
   .main { padding: 32px 24px 60px; }
 }
@@ -242,7 +243,7 @@ a.section-heading:hover { opacity: 0.75; }
 <aside class="sidebar">
 
   <img src="/images/photo6.png" alt="Jaejin Lee"
-    onerror="this.style.cssText='width:180px;height:218px;background:#e0e0e0;display:block;margin-bottom:18px;'">
+    onerror="this.style.cssText='width:180px;height:218px;background:#e0e0e0;display:block;margin: 0 auto 18px auto;'">
 
   <div class="sidebar-name">Jaejin Lee</div>
 
