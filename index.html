@@ -20,19 +20,18 @@ body {
   background: #fff;
 }
 
-/* ── Two-column layout ── */
 .page {
   display: flex;
   min-height: 100vh;
   align-items: flex-start;
 }
 
-/* ════════════ LEFT SIDEBAR (Colonnelli style) ════════════ */
+/* ════════════ LEFT SIDEBAR ════════════ */
 .sidebar {
   width: 380px;
   flex-shrink: 0;
   padding: 50px 40px 80px 60px;
-  border-right: 1px solid #ddd;
+  /* no border-right */
   position: sticky;
   top: 0;
   height: 100vh;
@@ -89,7 +88,6 @@ body {
   padding: 60px 68px 100px 68px;
 }
 
-/* Section headings — bold sans, Colonnelli style */
 .section-heading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -101,7 +99,6 @@ body {
   color: #1a1a1a;
 }
 
-/* CV heading link — same size/weight, blue, bold underline, tight top */
 a.section-heading {
   display: block;
   color: #0645ad;
@@ -119,7 +116,6 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   margin-bottom: 10px;
 }
 
-/* Appointment sub-headings */
 .inst-name {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -134,13 +130,11 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .appt-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
 
-/* ── Paper entries — Colonnelli style ── */
 .paper {
   margin-bottom: 28px;
   max-width: 760px;
 }
 
-/* Title line — same 15px as wip-entry */
 .paper-h {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 15px;
@@ -148,7 +142,6 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   margin-bottom: 4px;
 }
 
-/* Linked title portion — bold, blue */
 .paper-h a {
   font-weight: 700;
   color: #0645ad;
@@ -156,7 +149,6 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .paper-h a:hover { text-decoration: underline; }
 
-/* Coauthor + status — normal weight, body color, same 15px as title */
 .paper-h .paper-meta {
   font-weight: 400;
   font-family: Georgia, 'Times New Roman', serif;
@@ -165,14 +157,12 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   font-style: normal;
 }
 .paper-h .paper-meta em { font-style: italic; }
-/* Coauthor links — no underline ever, plain body color */
 .paper-h .paper-meta a {
   color: #1a1a1a;
   text-decoration: none;
 }
 .paper-h .paper-meta a:hover { color: #555; }
 
-/* Abstract toggle — Colonnelli's [+] Abstract */
 .abs-toggle {
   background: none;
   border: none;
@@ -197,7 +187,6 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .abs-body.open { display: block; }
 
-/* Work in progress */
 .wip-entry {
   font-size: 15px;
   margin-bottom: 8px;
@@ -206,12 +195,10 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   max-width: 760px;
 }
 
-/* Responsive */
 @media (max-width: 760px) {
   .page { flex-direction: column; }
   .sidebar {
     position: static; width: 100%; height: auto;
-    border-right: none; border-bottom: 1px solid #ddd;
     padding: 32px 24px;
   }
   .main { padding: 36px 24px 60px; }
@@ -221,7 +208,6 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 <body>
 <div class="page">
 
-<!-- ═══════════════════ SIDEBAR ═══════════════════ -->
 <aside class="sidebar">
 
   <img src="/images/photo6.png" alt="Jaejin Lee"
@@ -260,26 +246,22 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 
 </aside>
 
-<!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
 <main class="main">
 
-  <!-- Curriculum Vitae -->
   <a href="/Jaejin_CV.pdf" class="section-heading">Curriculum Vitae</a>
 
-  <!-- Academic Appointments -->
   <h2 class="section-heading">Academic Appointments</h2>
   <hr class="section-rule">
 
   <div class="inst-name">Kennesaw State University</div>
   <div class="appt-row"><strong>2025 &ndash;</strong>&ensp;Assistant Professor of Finance</div>
 
-  <!-- Working Papers -->
   <h2 class="section-heading">Working Papers</h2>
   <hr class="section-rule">
 
   <div class="paper">
     <div class="paper-h">
-      <a href="/publications/Political_Connections_Pension_Funds.pdf">How Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections</a><span class="paper-meta"> <!-- (with <a href="https://placeholder-coauthor2.com">Coauthor Name</a>) [Revise and Resubmit at the <em>Journal of Finance</em>] --> </span>
+      <a href="/publications/Political_Connections_Pension_Funds.pdf">How Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections</a><span class="paper-meta"> </span>
     </div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
@@ -293,7 +275,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 
   <div class="paper">
     <div class="paper-h">
-      <a href="/publications/Distrust_Spillover_on_Banks.pdf">Distrust Spillovers from Financial Advisors to Bank Branches</a><span class="paper-meta"> <!-- (with <a href="https://placeholder-coauthor2.com">Coauthor Name</a>) [Revise and Resubmit at the <em>Journal of Finance</em>] --> </span>
+      <a href="/publications/Distrust_Spillover_on_Banks.pdf">Distrust Spillovers from Financial Advisors to Bank Branches</a><span class="paper-meta"> </span>
     </div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
@@ -306,7 +288,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 
   <div class="paper">
     <div class="paper-h">
-      <a href="/publications/Business_Ties_and_Portfolio_Allocation.pdf">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</a><span class="paper-meta"> <!-- (with <a href="https://placeholder-coauthor2.com">Coauthor Name</a>) [Revise and Resubmit at the <em>Journal of Finance</em>] --> </span>
+      <a href="/publications/Business_Ties_and_Portfolio_Allocation.pdf">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</a><span class="paper-meta"> </span>
     </div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
@@ -317,7 +299,6 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
     </div>
   </div>
 
-  <!-- Work in Progress -->
   <h2 class="section-heading">Work in Progress</h2>
   <hr class="section-rule">
 
