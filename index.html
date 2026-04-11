@@ -10,9 +10,7 @@ layout: none
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html, body {
-  height: 100%;
-}
+html, body { height: 100%; }
 
 body {
   font-family: Georgia, 'Times New Roman', serif;
@@ -22,18 +20,18 @@ body {
   background: #fff;
 }
 
-/* ── Two-column layout identical to emanuelecolonnelli.com ── */
+/* ── Two-column layout ── */
 .page {
   display: flex;
   min-height: 100vh;
   align-items: flex-start;
 }
 
-/* ════ LEFT SIDEBAR ════ */
+/* ════════════ LEFT SIDEBAR (Colonnelli style) ════════════ */
 .sidebar {
-  width: 280px;
+  width: 270px;
   flex-shrink: 0;
-  padding: 52px 32px 80px 44px;
+  padding: 50px 30px 80px 40px;
   border-right: 1px solid #ddd;
   position: sticky;
   top: 0;
@@ -41,27 +39,27 @@ body {
   overflow-y: auto;
 }
 
-.sidebar-photo {
+.sidebar img {
   width: 100%;
-  max-width: 200px;
+  max-width: 195px;
   display: block;
   margin-bottom: 20px;
 }
 
 .sidebar-name {
-  font-family: Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
   color: #1a1a1a;
 }
 
 .cv-link {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
   font-size: 13px;
+  font-weight: 700;
   color: #1a1a1a;
   text-decoration: none;
   border-bottom: 2px solid #1a1a1a;
@@ -70,15 +68,13 @@ body {
 }
 .cv-link:hover { color: #555; border-color: #555; }
 
-.sidebar-hr {
+.s-hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 14px 0;
 }
 
-.sidebar-block { margin-bottom: 2px; }
-
-.sidebar-label {
+.s-label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   font-weight: 700;
@@ -88,8 +84,8 @@ body {
   margin-bottom: 5px;
 }
 
-.sidebar-block p,
-.sidebar-block a {
+.s-block p,
+.s-block a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   line-height: 1.65;
@@ -97,37 +93,40 @@ body {
   display: block;
   text-decoration: none;
 }
-.sidebar-block a:hover { color: #000; text-decoration: underline; }
+.s-block a:hover { color: #000; text-decoration: underline; }
 
-/* ════ RIGHT MAIN COLUMN ════ */
+/* ════════════ RIGHT MAIN COLUMN ════════════ */
 .main {
   flex: 1;
   min-width: 0;
-  padding: 60px 72px 100px 72px;
+  padding: 60px 68px 100px 68px;
 }
 
-/* Bio intro */
+/* Bio */
 .bio {
   font-size: 15px;
   line-height: 1.85;
-  margin-bottom: 0;
   max-width: 760px;
 }
 
-/* Section headings — bold sans, with rule below, exactly like Colonnelli */
+/* ── Section headings: same large bold sans as Colonnelli,
+      but with tight gap to the rule below (like Zhang's ### spacing) ── */
 .section-heading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  margin: 52px 0 0;
+  margin-top: 52px;
+  margin-bottom: 0;
   line-height: 1.2;
+  padding-bottom: 6px;          /* tight, like Zhang — rule sits close under text */
 }
 .section-heading:first-of-type { margin-top: 44px; }
 
 .section-rule {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 10px 0 28px;
+  margin-top: 0;                 /* rule flush against heading padding */
+  margin-bottom: 20px;           /* same compact gap Zhang has before first paper */
 }
 
 /* Appointment sub-headings */
@@ -143,31 +142,31 @@ body {
   line-height: 1.65;
   margin-bottom: 3px;
 }
-.appt-row strong {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
+.appt-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
 
-/* ── Paper entries — h3 style just like Colonnelli's ### ── */
+/* ── Paper entries ── */
 .paper {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
   max-width: 760px;
 }
 
+/* Paper title: Zhang's blue link color (#0645ad) */
 .paper-title {
-  font-family: Georgia, serif;
-  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
   font-weight: 700;
   line-height: 1.45;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 .paper-title a {
-  color: #1a1a1a;
+  color: #0645ad;               /* Zhang's classic blue */
   text-decoration: none;
 }
-.paper-title a:hover { text-decoration: underline; }
+.paper-title a:hover {
+  text-decoration: underline;
+  color: #0645ad;
+}
 
-/* Status line: coauthors, journal, R&R — italic journal in parens */
 .paper-status {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13.5px;
@@ -177,7 +176,6 @@ body {
 }
 .paper-status em { font-style: italic; color: #222; }
 
-/* Presentation / award bullets */
 .paper-bullets {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
@@ -187,7 +185,7 @@ body {
 }
 .paper-bullets li { list-style: disc; margin-bottom: 2px; }
 
-/* Abstract toggle — exactly "[+] Abstract" like Colonnelli */
+/* Abstract toggle — Colonnelli's [+] Abstract */
 .abs-toggle {
   background: none;
   border: none;
@@ -212,24 +210,30 @@ body {
 }
 .abs-body.open { display: block; }
 
-/* Work in progress entries */
+/* Work in progress */
 .wip-entry {
   font-size: 14.5px;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   color: #333;
-  font-family: Georgia, serif;
   font-style: italic;
+  max-width: 760px;
 }
 
-/* ── Responsive ── */
+/* Teaching */
+.teach-row {
+  font-size: 14.5px;
+  margin-bottom: 6px;
+  line-height: 1.65;
+  max-width: 760px;
+}
+.teach-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
+
+/* Responsive */
 @media (max-width: 760px) {
   .page { flex-direction: column; }
   .sidebar {
-    position: static;
-    width: 100%;
-    height: auto;
-    border-right: none;
-    border-bottom: 1px solid #ddd;
+    position: static; width: 100%; height: auto;
+    border-right: none; border-bottom: 1px solid #ddd;
     padding: 32px 24px;
   }
   .main { padding: 36px 24px 60px; }
@@ -239,40 +243,40 @@ body {
 <body>
 <div class="page">
 
-<!-- ════════════════════ SIDEBAR ════════════════════ -->
+<!-- ═══════════════════ SIDEBAR (Colonnelli style) ═══════════════════ -->
 <aside class="sidebar">
 
-  <img class="sidebar-photo" src="/images/photo6.png" alt="Jaejin Lee"
-    onerror="this.style.cssText='width:200px;height:240px;background:#e0e0e0;display:block;margin-bottom:20px;'">
+  <img src="/images/photo6.png" alt="Jaejin Lee"
+    onerror="this.style.cssText='width:195px;height:235px;background:#e0e0e0;display:block;margin-bottom:20px;'">
 
   <div class="sidebar-name">Jaejin Lee</div>
 
   <a href="/Jaejin_CV.pdf" class="cv-link">Curriculum Vitae</a>
 
-  <hr class="sidebar-hr">
-  <div class="sidebar-block">
-    <div class="sidebar-label">Contact Information</div>
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Contact Information</div>
     <a href="mailto:jaejinl2@illinois.edu">jaejinl2@illinois.edu</a>
   </div>
 
-  <hr class="sidebar-hr">
-  <div class="sidebar-block">
-    <div class="sidebar-label">Education</div>
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Education</div>
     <p>Ph.D. in Finance, expected 2025</p>
-    <p>University of Illinois at Urbana-Champaign</p>
+    <p>University of Illinois<br>at Urbana-Champaign</p>
   </div>
 
-  <hr class="sidebar-hr">
-  <div class="sidebar-block">
-    <div class="sidebar-label">Research Fields</div>
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Research Fields</div>
     <p>Financial Intermediation</p>
     <p>Political Economy of Finance</p>
     <p>Institutional Investors</p>
   </div>
 
-  <hr class="sidebar-hr">
-  <div class="sidebar-block">
-    <div class="sidebar-label">Mailing Address</div>
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Mailing Address</div>
     <p>Department of Finance<br>
        University of Illinois<br>
        Urbana-Champaign, IL 61820, USA</p>
@@ -280,7 +284,7 @@ body {
 
 </aside>
 
-<!-- ════════════════════ MAIN CONTENT ════════════════════ -->
+<!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
 <main class="main">
 
   <p class="bio">
@@ -289,7 +293,7 @@ body {
     institutional investors. <strong>I am on the job market this year.</strong>
   </p>
 
-  <!-- ── Academic Appointments ── -->
+  <!-- Academic Appointments -->
   <h2 class="section-heading">Academic Appointments</h2>
   <hr class="section-rule">
 
@@ -300,7 +304,7 @@ body {
   <div class="appt-row"><strong>Fall 2024</strong>&ensp;Big Data Analytics (FIN&nbsp;550, Graduate) &mdash; Head Professor: Julian Reif</div>
   <div class="appt-row"><strong>Fall 2021, Spring 2022</strong>&ensp;Corporate Finance (FIN&nbsp;221, Undergraduate) &mdash; Head Professor: Michael Dyer</div>
 
-  <!-- ── Job Market Paper ── -->
+  <!-- Job Market Paper -->
   <h2 class="section-heading">Job Market Paper</h2>
   <hr class="section-rule">
 
@@ -325,7 +329,7 @@ body {
     </div>
   </div>
 
-  <!-- ── Working Papers ── -->
+  <!-- Working Papers -->
   <h2 class="section-heading">Working Papers</h2>
   <hr class="section-rule">
 
@@ -367,7 +371,7 @@ body {
     </div>
   </div>
 
-  <!-- ── Work in Progress ── -->
+  <!-- Work in Progress -->
   <h2 class="section-heading">Work in Progress</h2>
   <hr class="section-rule">
 
