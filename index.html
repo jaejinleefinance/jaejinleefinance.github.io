@@ -7,6 +7,7 @@ layout: none
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jaejin Lee</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -18,12 +19,11 @@ aside, nav, header, footer, main, section {
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 14.5px;
   line-height: 1.7;
   color: #1a1a1a;
   background: #fff;
-  /* Slightly condensed — Colonnelli uses a narrower line measure */
   letter-spacing: -0.01em;
 }
 
@@ -39,16 +39,15 @@ body {
 /* ════════════ LEFT SIDEBAR ════════════
    Colonnelli: left-aligned text, photo at top, same top padding as main */
 .sidebar {
-  width: 300px;
+  width: 260px;
   flex-shrink: 0;
-  /* Same top padding as .main so photo top = CV link top */
-  padding: 48px 30px 80px 40px;
+  padding: 48px 16px 80px 32px;
   border: none;
   position: sticky;
   top: 0;
   height: 100vh;
   overflow-y: auto;
-  text-align: left;
+  text-align: center;
 }
 
 .sidebar img {
@@ -59,7 +58,7 @@ body {
 }
 
 .sidebar-name {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 21px;
   font-weight: 700;
   line-height: 1.2;
@@ -75,24 +74,26 @@ body {
 }
 
 .s-label {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #0645ad;
   margin-bottom: 4px;
+  text-align: center;
 }
 
 .s-block p,
 .s-block a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 12.5px;
   line-height: 1.6;
   color: #333;
   display: block;
   text-decoration: none;
   letter-spacing: 0;
+  text-align: center;
 }
 .s-block a:hover { color: #000; text-decoration: underline; }
 
@@ -101,13 +102,12 @@ body {
 .main {
   flex: 1;
   min-width: 0;
-  /* Same 48px top as sidebar */
-  padding: 48px 60px 100px 48px;
+  padding: 48px 60px 100px 24px;
 }
 
 /* Section headings */
 .section-heading {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 700;
   margin-top: 48px;
@@ -138,7 +138,7 @@ a.section-heading:hover { opacity: 0.75; }
 
 /* Appointment sub-headings */
 .inst-name {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 700;
   margin: 0 0 6px;
@@ -151,7 +151,7 @@ a.section-heading:hover { opacity: 0.75; }
   margin-bottom: 3px;
   letter-spacing: 0;
 }
-.appt-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
+.appt-row strong { font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif; font-weight: 700; }
 
 /* Paper entries */
 .paper {
@@ -159,7 +159,7 @@ a.section-heading:hover { opacity: 0.75; }
 }
 
 .paper-h {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 14.5px;
   line-height: 1.5;
   margin-bottom: 3px;
@@ -175,7 +175,7 @@ a.section-heading:hover { opacity: 0.75; }
 
 .paper-h .paper-meta {
   font-weight: 400;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 14.5px;
   color: #1a1a1a;
   font-style: normal;
@@ -193,7 +193,7 @@ a.section-heading:hover { opacity: 0.75; }
   background: none;
   border: none;
   cursor: pointer;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   font-size: 14.5px;
   font-weight: 400;
   color: #1a1a1a;
@@ -219,7 +219,7 @@ a.section-heading:hover { opacity: 0.75; }
   font-size: 14.5px;
   margin-bottom: 7px;
   color: #1a1a1a;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Helvetica Neue', 'Inter', Helvetica, Arial, sans-serif;
   letter-spacing: -0.01em;
 }
 
@@ -255,7 +255,23 @@ a.section-heading:hover { opacity: 0.75; }
   <div class="s-block">
     <div class="s-label">Education</div>
     <p>Ph.D. in Finance, 2025</p>
-    <p>University of Illinois at Urbana-Champaign</p>
+    <p>University of Illinois<br>at Urbana-Champaign</p>
+  </div>
+
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Research Fields</div>
+    <p>Financial Intermediation</p>
+    <p>Political Economy of Finance</p>
+    <p>Institutional Investors</p>
+  </div>
+
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Mailing Address</div>
+    <p>Coles College of Business<br>
+       Kennesaw State University<br>
+       Kennesaw, GA 30144, USA</p>
   </div>
 
 </aside>
