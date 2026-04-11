@@ -109,8 +109,6 @@ body {
   max-width: 760px;
 }
 
-/* ── Section headings: same large bold sans as Colonnelli,
-      but with tight gap to the rule below (like Zhang's ### spacing) ── */
 .section-heading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -118,15 +116,23 @@ body {
   margin-top: 52px;
   margin-bottom: 0;
   line-height: 1.2;
-  padding-bottom: 6px;          /* tight, like Zhang — rule sits close under text */
+  padding-bottom: 6px;
 }
 .section-heading:first-of-type { margin-top: 44px; }
+
+/* CV heading link — identical size/weight to h2, no underline, paper blue */
+a.section-heading {
+  display: block;
+  color: #0645ad;
+  text-decoration: none;
+}
+a.section-heading:hover { color: #0645ad; text-decoration: none; opacity: 0.7; }
 
 .section-rule {
   border: none;
   border-top: 1px solid #ddd;
-  margin-top: 0;                 /* rule flush against heading padding */
-  margin-bottom: 20px;           /* same compact gap Zhang has before first paper */
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 /* Appointment sub-headings */
@@ -150,7 +156,6 @@ body {
   max-width: 760px;
 }
 
-/* Paper title: Zhang's blue link color (#0645ad) */
 .paper-title {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 15.5px;
@@ -159,7 +164,7 @@ body {
   margin-bottom: 3px;
 }
 .paper-title a {
-  color: #0645ad;               /* Zhang's classic blue */
+  color: #0645ad;
   text-decoration: none;
 }
 .paper-title a:hover {
@@ -185,7 +190,6 @@ body {
 }
 .paper-bullets li { list-style: disc; margin-bottom: 2px; }
 
-/* Abstract toggle — Colonnelli's [+] Abstract */
 .abs-toggle {
   background: none;
   border: none;
@@ -285,10 +289,8 @@ body {
 <!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
 <main class="main">
 
-  <h2 class="section-heading">Curriculum Vitae</h2>
-  <hr class="section-rule">
-
-  <a href="/Jaejin_CV.pdf" class="cv-link">CV</a>
+  <!-- Curriculum Vitae — same visual as h2 but clickable, blue, no underline, no rule -->
+  <a href="/Jaejin_CV.pdf" class="section-heading">Curriculum Vitae</a>
 
   <!-- Academic Appointments -->
   <h2 class="section-heading">Academic Appointments</h2>
@@ -300,7 +302,7 @@ body {
   <!-- Working Papers -->
   <h2 class="section-heading">Working Papers</h2>
   <hr class="section-rule">
- 
+
   <div class="paper">
     <div class="paper-title">
       <a href="/publications/Political_Connections_Pension_Funds.pdf">
@@ -321,7 +323,7 @@ body {
       of political economy frictions in institutional investor behavior.
     </div>
   </div>
-  
+
   <div class="paper">
     <div class="paper-title">
       <a href="/publications/Distrust_Spillover_on_Banks.pdf">
