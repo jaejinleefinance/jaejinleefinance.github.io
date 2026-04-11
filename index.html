@@ -19,102 +19,115 @@ aside, nav, header, footer, main, section {
 
 body {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 15px;
-  line-height: 1.75;
+  font-size: 14.5px;
+  line-height: 1.7;
   color: #1a1a1a;
   background: #fff;
+  /* Slightly condensed — Colonnelli uses a narrower line measure */
+  letter-spacing: -0.01em;
 }
 
+/* ── Page: both columns start at same top, no offset ── */
 .page {
   display: flex;
   min-height: 100vh;
   align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-/* ════════════ LEFT SIDEBAR ════════════ */
+/* ════════════ LEFT SIDEBAR ════════════
+   Colonnelli: left-aligned text, photo at top, same top padding as main */
 .sidebar {
-  width: 330px;
+  width: 300px;
   flex-shrink: 0;
-  padding: 50px 30px 80px 30px;
+  /* Same top padding as .main so photo top = CV link top */
+  padding: 48px 30px 80px 40px;
   border: none;
   position: sticky;
   top: 0;
   height: 100vh;
   overflow-y: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .sidebar img {
   width: 100%;
-  max-width: 195px;
+  max-width: 180px;
   display: block;
-  margin: 0 auto 20px;
+  margin-bottom: 18px;
 }
 
 .sidebar-name {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   color: #1a1a1a;
+  letter-spacing: 0;
 }
 
 .s-hr {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 14px 0;
+  margin: 12px 0;
 }
 
 .s-label {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #0645ad;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
-  
+
 .s-block p,
 .s-block a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 1.65;
-  color: #3d3d3d;
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: #333;
   display: block;
   text-decoration: none;
-  text-align: center;
+  letter-spacing: 0;
 }
 .s-block a:hover { color: #000; text-decoration: underline; }
 
-/* ════════════ RIGHT MAIN COLUMN ════════════ */
+/* ════════════ RIGHT MAIN COLUMN ════════════
+   Same top padding as sidebar so first item aligns with photo top */
 .main {
   flex: 1;
   min-width: 0;
-  padding: 60px 120px 100px 40px;
+  /* Same 48px top as sidebar */
+  padding: 48px 60px 100px 48px;
 }
 
+/* Section headings */
 .section-heading {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
-  margin-top: 52px;
+  margin-top: 48px;
   margin-bottom: 0;
   line-height: 1.2;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   color: #1a1a1a;
+  letter-spacing: 0;
 }
 
+/* CV link — first item, no top margin so it aligns with photo */
 a.section-heading {
   display: block;
   color: #0645ad;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
-  margin-top: 20px;
+  text-underline-offset: 3px;
+  margin-top: 0;
 }
-a.section-heading:hover { color: #0645ad; opacity: 0.7; }
+a.section-heading:hover { opacity: 0.75; }
 
 .section-rule {
   border: none;
@@ -123,29 +136,34 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   margin-bottom: 10px;
 }
 
+/* Appointment sub-headings */
 .inst-name {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
+  letter-spacing: 0;
 }
 
 .appt-row {
-  font-size: 14.5px;
+  font-size: 14px;
   line-height: 1.65;
   margin-bottom: 3px;
+  letter-spacing: 0;
 }
 .appt-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
 
+/* Paper entries */
 .paper {
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
 
 .paper-h {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 15px;
+  font-size: 14.5px;
   line-height: 1.5;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
+  letter-spacing: -0.01em;
 }
 
 .paper-h a {
@@ -153,14 +171,15 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   color: #000;
   text-decoration: none;
 }
-.paper-h a:hover { text-decoration: underline; color: #000; }
+.paper-h a:hover { text-decoration: underline; }
 
 .paper-h .paper-meta {
   font-weight: 400;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 15px;
+  font-size: 14.5px;
   color: #1a1a1a;
   font-style: normal;
+  letter-spacing: -0.01em;
 }
 .paper-h .paper-meta em { font-style: italic; }
 .paper-h .paper-meta a {
@@ -169,53 +188,60 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .paper-h .paper-meta a:hover { color: #555; }
 
+/* Abstract toggle */
 .abs-toggle {
   background: none;
   border: none;
   cursor: pointer;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: 400;
   color: #1a1a1a;
   padding: 0;
-  margin-top: 4px;
+  margin-top: 3px;
   display: block;
+  letter-spacing: 0;
 }
 .abs-toggle:hover { color: #555; }
 
 .abs-body {
   display: none;
-  font-size: 14.5px;
-  line-height: 1.85;
+  font-size: 14px;
+  line-height: 1.8;
   color: #1a1a1a;
   margin-top: 8px;
+  letter-spacing: -0.01em;
 }
 .abs-body.open { display: block; }
 
+/* Work in progress */
 .wip-entry {
-  font-size: 15px;
-  margin-bottom: 8px;
+  font-size: 14.5px;
+  margin-bottom: 7px;
   color: #1a1a1a;
   font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.01em;
 }
 
+/* Responsive */
 @media (max-width: 760px) {
-  .page { flex-direction: column; }
+  .page { flex-direction: column; max-width: 100%; }
   .sidebar {
     position: static; width: 100%; height: auto;
-    padding: 32px 24px;
+    padding: 32px 24px; text-align: left;
   }
-  .main { padding: 36px 24px 60px; }
+  .main { padding: 32px 24px 60px; }
 }
 </style>
 </head>
 <body>
 <div class="page">
 
+<!-- ═══════════════════ SIDEBAR ═══════════════════ -->
 <aside class="sidebar">
 
   <img src="/images/photo6.png" alt="Jaejin Lee"
-    onerror="this.style.cssText='width:195px;height:235px;background:#e0e0e0;display:block;margin-bottom:20px;'">
+    onerror="this.style.cssText='width:180px;height:218px;background:#e0e0e0;display:block;margin-bottom:18px;'">
 
   <div class="sidebar-name">Jaejin Lee</div>
 
@@ -228,14 +254,32 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   <hr class="s-hr">
   <div class="s-block">
     <div class="s-label">Education</div>
-    <p>Ph.D. in Finance</p>
-    <p>University of Illinois at Urbana-Champaign</p>
+    <p>Ph.D. in Finance, 2025</p>
+    <p>University of Illinois<br>at Urbana-Champaign</p>
+  </div>
+
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Research Fields</div>
+    <p>Financial Intermediation</p>
+    <p>Political Economy of Finance</p>
+    <p>Institutional Investors</p>
+  </div>
+
+  <hr class="s-hr">
+  <div class="s-block">
+    <div class="s-label">Mailing Address</div>
+    <p>Coles College of Business<br>
+       Kennesaw State University<br>
+       Kennesaw, GA 30144, USA</p>
   </div>
 
 </aside>
 
+<!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
 <main class="main">
 
+  <!-- CV — no top margin so it aligns exactly with photo top -->
   <a href="/Jaejin_CV.pdf" class="section-heading">Curriculum Vitae</a>
 
   <h2 class="section-heading">Academic Appointments</h2>
