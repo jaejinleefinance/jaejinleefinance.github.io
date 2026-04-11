@@ -134,18 +134,16 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .appt-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
 
-/* ── Paper entries — Colonnelli style ──
-   The title is a bold h3-sized link; coauthors + status follow as plain
-   normal-weight text on the same line, just like ### [Title](url)(coauthors) [status] */
+/* ── Paper entries — Colonnelli style ── */
 .paper {
   margin-bottom: 28px;
   max-width: 760px;
 }
 
-/* The entire first line: bold linked title + inline plain coauthor/status */
+/* Title line — same 15px as wip-entry */
 .paper-h {
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
   margin-bottom: 4px;
 }
@@ -158,16 +156,16 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .paper-h a:hover { text-decoration: underline; }
 
-/* Coauthor + status — normal weight, body color, same font and size as title */
+/* Coauthor + status — normal weight, body color, same 15px as title */
 .paper-h .paper-meta {
   font-weight: 400;
   font-family: Georgia, 'Times New Roman', serif;
-  font-size: 16px;
+  font-size: 15px;
   color: #1a1a1a;
   font-style: normal;
 }
 .paper-h .paper-meta em { font-style: italic; }
-/* Coauthor links — no underline ever, plain body color, indistinguishable until hover */
+/* Coauthor links — no underline ever, plain body color */
 .paper-h .paper-meta a {
   color: #1a1a1a;
   text-decoration: none;
@@ -234,7 +232,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   <hr class="s-hr">
   <div class="s-block">
     <div class="s-label">Contact Information</div>
-    <a href="mailto:jaejinl2@illinois.edu">jlee589@kennesaw.edu</a>
+    <a href="mailto:jlee589@kennesaw.edu">jlee589@kennesaw.edu</a>
   </div>
 
   <hr class="s-hr">
@@ -295,7 +293,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 
   <div class="paper">
     <div class="paper-h">
-      <a href="/publications/Distrust_Spillover_on_Banks.pdf">Distrust Spillovers from Financial Advisors to Bank Branches</a><span class="paper-meta"> <!-- (with <a href="https://placeholder-coauthor1.com">Coauthor Name</a>) --> </span>
+      <a href="/publications/Distrust_Spillover_on_Banks.pdf">Distrust Spillovers from Financial Advisors to Bank Branches</a><span class="paper-meta"> </span>
     </div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
@@ -308,7 +306,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 
   <div class="paper">
     <div class="paper-h">
-      <a href="/publications/Business_Ties_and_Portfolio_Allocation.pdf">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</a><span class="paper-meta"> <!-- (with <a href="https://placeholder-coauthor2.com">Coauthor Name</a>) [Revise and Resubmit at the <em>Journal of Finance</em>] --> </span>
+      <a href="/publications/Business_Ties_and_Portfolio_Allocation.pdf">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</a><span class="paper-meta"> </span>
     </div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
