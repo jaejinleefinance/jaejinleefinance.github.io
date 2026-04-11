@@ -55,19 +55,6 @@ body {
   color: #1a1a1a;
 }
 
-.cv-link {
-  display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: #1a1a1a;
-  text-decoration: none;
-  border-bottom: 2px solid #1a1a1a;
-  padding-bottom: 1px;
-  margin-bottom: 22px;
-}
-.cv-link:hover { color: #555; border-color: #555; }
-
 .s-hr {
   border: none;
   border-top: 1px solid #ddd;
@@ -102,13 +89,7 @@ body {
   padding: 60px 68px 100px 68px;
 }
 
-/* Bio */
-.bio {
-  font-size: 15px;
-  line-height: 1.85;
-  max-width: 760px;
-}
-
+/* Section headings — bold sans, Colonnelli style */
 .section-heading {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -117,16 +98,17 @@ body {
   margin-bottom: 0;
   line-height: 1.2;
   padding-bottom: 6px;
+  color: #1a1a1a;
 }
-.section-heading:first-of-type { margin-top: 44px; }
 
-/* CV heading link — identical size/weight to h2, no underline, paper blue */
+/* CV heading link — same size/weight, blue, bold underline, tight top */
 a.section-heading {
   display: block;
   color: #0645ad;
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
+  margin-top: 20px;
 }
 a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 
@@ -152,87 +134,79 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 }
 .appt-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
 
-/* ── Paper entries ── */
+/* ── Paper entries — Colonnelli style ──
+   The title is a bold h3-sized link; coauthors + status follow as plain
+   normal-weight text on the same line, just like ### [Title](url)(coauthors) [status] */
 .paper {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   max-width: 760px;
 }
 
-.paper-title {
+/* The entire first line: bold linked title + inline plain coauthor/status */
+.paper-h {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 15.5px;
-  font-weight: 700;
-  line-height: 1.45;
-  margin-bottom: 3px;
+  line-height: 1.5;
+  margin-bottom: 4px;
 }
-.paper-title a {
+
+/* Linked title portion — bold, blue */
+.paper-h a {
+  font-weight: 700;
   color: #0645ad;
   text-decoration: none;
 }
-.paper-title a:hover {
-  text-decoration: underline;
-  color: #0645ad;
-}
+.paper-h a:hover { text-decoration: underline; }
 
-.paper-status {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13.5px;
-  color: #444;
-  line-height: 1.55;
-  margin-bottom: 5px;
+/* Coauthor + status — normal weight, body color, same font and size as title */
+.paper-h .paper-meta {
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15.5px;
+  color: #1a1a1a;
+  font-style: normal;
 }
-.paper-status em { font-style: italic; color: #222; }
-
-.paper-bullets {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #444;
-  margin: 4px 0 6px 18px;
-  line-height: 1.65;
+.paper-h .paper-meta em { font-style: italic; }
+/* Coauthor links — no underline ever, plain body color, indistinguishable until hover */
+.paper-h .paper-meta a {
+  color: #1a1a1a;
+  text-decoration: none;
 }
-.paper-bullets li { list-style: disc; margin-bottom: 2px; }
+.paper-h .paper-meta a:hover { color: #555; }
 
+/* Abstract toggle — Colonnelli's [+] Abstract */
 .abs-toggle {
   background: none;
   border: none;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: #555;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #1a1a1a;
   padding: 0;
   margin-top: 4px;
   display: block;
 }
-.abs-toggle:hover { color: #111; }
+.abs-toggle:hover { color: #555; }
 
 .abs-body {
   display: none;
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 1.85;
-  color: #333;
-  margin-top: 12px;
+  color: #1a1a1a;
+  margin-top: 8px;
   max-width: 720px;
 }
 .abs-body.open { display: block; }
 
 /* Work in progress */
 .wip-entry {
-  font-size: 14.5px;
+  font-size: 15px;
   margin-bottom: 8px;
-  color: #333;
-  font-style: italic;
+  color: #1a1a1a;
+  font-family: Georgia, 'Times New Roman', serif;
   max-width: 760px;
 }
-
-/* Teaching */
-.teach-row {
-  font-size: 14.5px;
-  margin-bottom: 6px;
-  line-height: 1.65;
-  max-width: 760px;
-}
-.teach-row strong { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
 
 /* Responsive */
 @media (max-width: 760px) {
@@ -249,7 +223,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 <body>
 <div class="page">
 
-<!-- ═══════════════════ SIDEBAR (Colonnelli style) ═══════════════════ -->
+<!-- ═══════════════════ SIDEBAR ═══════════════════ -->
 <aside class="sidebar">
 
   <img src="/images/photo6.png" alt="Jaejin Lee"
@@ -291,7 +265,7 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
 <!-- ═══════════════════ MAIN CONTENT ═══════════════════ -->
 <main class="main">
 
-  <!-- Curriculum Vitae — same visual as h2 but clickable, blue, no underline, no rule -->
+  <!-- Curriculum Vitae -->
   <a href="/Jaejin_CV.pdf" class="section-heading">Curriculum Vitae</a>
 
   <!-- Academic Appointments -->
@@ -306,12 +280,9 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   <hr class="section-rule">
 
   <div class="paper">
-    <div class="paper-title">
-      <a href="/publications/Political_Connections_Pension_Funds.pdf">
-        How Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections
-      </a>
+    <div class="paper-h">
+      <a href="/publications/Political_Connections_Pension_Funds.pdf">How Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections</a><span class="paper-meta"> [Semi-finalist, FMA Best Paper Award, 2024; Presentations: UIUC, SFS Cavalcade 2024, FMA 2024]</span>
     </div>
-    <div class="paper-status"></div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
       I identify the causal effect of political connections on the private equity investments of U.S. public pension
@@ -323,12 +294,9 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   </div>
 
   <div class="paper">
-    <div class="paper-title">
-      <a href="/publications/Distrust_Spillover_on_Banks.pdf">
-        Distrust Spillovers from Financial Advisors to Bank Branches
-      </a>
+    <div class="paper-h">
+      <a href="/publications/Distrust_Spillover_on_Banks.pdf">Distrust Spillovers from Financial Advisors to Bank Branches</a><span class="paper-meta"> (with <a href="https://placeholder-coauthor1.com">Coauthor Name</a>)</span>
     </div>
-    <div class="paper-status"></div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
       I identify a channel through which distrust spills over from investment advisory firms involved in misconduct
@@ -339,12 +307,9 @@ a.section-heading:hover { color: #0645ad; opacity: 0.7; }
   </div>
 
   <div class="paper">
-    <div class="paper-title">
-      <a href="/publications/Business_Ties_and_Portfolio_Allocation.pdf">
-        Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation
-      </a>
+    <div class="paper-h">
+      <a href="/publications/Business_Ties_and_Portfolio_Allocation.pdf">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</a><span class="paper-meta"> (with <a href="https://placeholder-coauthor2.com">Coauthor Name</a>) [Revise and Resubmit at the <em>Journal of Finance</em>]</span>
     </div>
-    <div class="paper-status"></div>
     <button class="abs-toggle" onclick="tog(this)">[+] Abstract</button>
     <div class="abs-body">
       I identify a systemic pattern of inferior investment decisions made by asset management firms in the 401(k)
