@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaejin Lee</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+/* ── Two-column layout ── */
+.page {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+/* ════ SIDEBAR ════ */
+.sidebar {
+  padding: 48px 28px 60px 36px;
+  border-right: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar img {
+  width: 100%;
+  max-width: 190px;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.sidebar h1 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+.sidebar h1 a { color: #1a1a1a; text-decoration: none; }
+
+.cv-link {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 1px;
+  margin-bottom: 24px;
+}
+.cv-link:hover { color: #555; border-color: #555; }
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 16px 0;
+}
+
+.sidebar-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.sidebar-section p,
+.sidebar-section a {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+.sidebar-section a:hover { color: #000; }
+
+/* ════ MAIN ════ */
+.main {
+  padding: 60px 68px 100px 68px;
+  max-width: 880px;
+}
+
+/* Section titles */
+.main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 52px;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.section-rule {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0 28px;
+}
+
+/* Subsection (appointments) */
+.inst-head {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 22px 0 8px;
+}
+
+.appt-row {
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin-bottom: 3px;
+}
+.appt-row strong { font-family: Arial, Helvetica, sans-serif; }
+
+/* Paper entries */
+.paper { margin-bottom: 32px; }
+
+.paper-title {
+  font-family: Georgia, serif;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 3px;
+}
+.paper-title a { color: #1a1a1a; text-decoration: none; }
+.paper-title a:hover { text-decoration: underline; }
+.paper-title span { font-weight: 700; }
+
+.paper-meta {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+  color: #444;
+  line-height: 1.55;
+  margin-bottom: 5px;
+}
+.paper-meta em { font-style: italic; color: #222; }
+
+.paper-bullets {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #444;
+  margin: 4px 0 6px 18px;
+  line-height: 1.6;
+}
+.paper-bullets li { list-style: disc; margin-bottom: 2px; }
+
+.abs-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #555;
+  padding: 0;
+  margin-top: 2px;
+}
+.abs-btn:hover { color: #111; }
+
+.abs-body {
+  display: none;
+  font-size: 14px;
+  line-height: 1.85;
+  color: #333;
+  margin-top: 10px;
+}
+.abs-body.open { display: block; }
+
+/* WIP */
+.wip { font-size: 14.5px; margin-bottom: 8px; color: #333; }
+
+/* Responsive */
+@media (max-width: 740px) {
+  .page { grid-template-columns: 1fr; }
+  .sidebar { position: static; height: auto; border-right: none; border-bottom: 1px solid #ddd; padding: 32px 24px; }
+  .main { padding: 36px 24px 60px; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ════════════ SIDEBAR ════════════ -->
+<aside class="sidebar">
+
+  <img src="images/photo6.png" alt="Jaejin Lee"
+    onerror="this.style.cssText='width:190px;height:230px;background:#ddd;display:block;margin-bottom:18px;'">
+
+  <h1><a href="#">Jaejin Lee</a></h1>
+
+  <a href="Jaejin_CV.pdf" class="cv-link">Curriculum Vitae</a>
+
+  <hr>
+  <div class="sidebar-section">
+    <div class="sidebar-label">Contact</div>
+    <a href="mailto:jaejinl2@illinois.edu">jaejinl2@illinois.edu</a>
+  </div>
+
+  <hr>
+  <div class="sidebar-section">
+    <div class="sidebar-label">Position</div>
+    <p>Ph.D. Candidate in Finance</p>
+    <p>University of Illinois<br>at Urbana-Champaign</p>
+  </div>
+
+  <hr>
+  <div class="sidebar-section">
+    <div class="sidebar-label">Fields</div>
+    <p>Financial Intermediation</p>
+    <p>Political Economy of Finance</p>
+    <p>Institutional Investors</p>
+  </div>
+
+  <hr>
+  <div class="sidebar-section">
+    <div class="sidebar-label">Mailing Address</div>
+    <p>Department of Finance<br>
+       University of Illinois<br>
+       Urbana-Champaign, IL 61820, USA</p>
+  </div>
+
+</aside>
+
+<!-- ════════════ MAIN ════════════ -->
+<main class="main">
+
+  <p style="font-size:15px;line-height:1.85;margin-bottom:0;">
+    I am a Ph.D. candidate in Finance at the University of Illinois at Urbana-Champaign.
+    My research focuses on financial intermediation, the political economy of finance, and
+    institutional investors. <strong>I am on the job market this year.</strong>
+  </p>
+
+  <!-- Academic Appointments -->
+  <h2>Academic Appointments</h2>
+  <hr class="section-rule">
+
+  <div class="inst-head">University of Illinois at Urbana-Champaign</div>
+  <div class="appt-row"><strong>2020—</strong>&nbsp; Ph.D. Candidate in Finance</div>
+
+  <div class="inst-head">Teaching</div>
+  <div class="appt-row"><strong>Fall 2024</strong>&nbsp; Big Data Analytics (FIN 550, Graduate) &mdash; Head Professor: Julian Reif</div>
+  <div class="appt-row"><strong>Fall 2021, Spring 2022</strong>&nbsp; Corporate Finance (FIN 221, Undergraduate) &mdash; Head Professor: Michael Dyer</div>
+
+  <!-- Job Market Paper -->
+  <h2>Job Market Paper</h2>
+  <hr class="section-rule">
+
+  <div class="paper">
+    <div class="paper-title">
+      <a href="publications/Political_Connections_Pension_Funds.pdf">How Political Connections Affect Public Pension Fund Investments? Evidence from Close State Elections</a>
+    </div>
+    <div class="paper-meta">Solo-authored</div>
+    <ul class="paper-bullets">
+      <li>Semi-finalist, FMA Best Paper Award, 2024</li>
+      <li>Presentations: UIUC &middot; SFS Cavalcade North America 2024 &middot; 7th Advances in VC &amp; PE Research Online Workshop &middot; FMA 2024</li>
+    </ul>
+    <button class="abs-btn" onclick="tog(this)">[+] Abstract</button>
+    <div class="abs-body">
+      I identify the causal effect of political connections on the private equity investments of U.S. public pension funds.
+      Exploiting close gubernatorial elections as an identification strategy, I document that politically connected fund
+      managers distort asset allocation decisions, reducing returns for pension beneficiaries. The findings illuminate
+      agency problems in the governance of public retirement systems and the broader role of political economy frictions
+      in institutional investor behavior.
+    </div>
+  </div>
+
+  <!-- Working Papers -->
+  <h2>Working Papers</h2>
+  <hr class="section-rule">
+
+  <div class="paper">
+    <div class="paper-title">
+      <a href="publications/Distrust_Spillover_on_Banks.pdf">Distrust Spillovers from Financial Advisors to Bank Branches</a>
+    </div>
+    <div class="paper-meta">Solo-authored</div>
+    <ul class="paper-bullets">
+      <li>Presentations: UIUC &middot; AFA 2023 (Poster) &middot; 3rd Boca Corporate Finance and Governance Conference &middot; Southwestern Finance Association 2023 &middot; FMA 2022</li>
+    </ul>
+    <button class="abs-btn" onclick="tog(this)">[+] Abstract</button>
+    <div class="abs-body">
+      I identify a channel through which distrust spills over from investment advisory firms involved in misconduct
+      to their affiliated bank branches. Clients who experience adviser misconduct significantly reduce their engagement
+      with affiliated banking services, documenting a novel within-conglomerate contagion mechanism and its implications
+      for the organization of financial services firms.
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-title">
+      <a href="publications/Business_Ties_and_Portfolio_Allocation.pdf">Hurting Fund Returns: Business Ties Constraints and Portfolio Misallocation</a>
+    </div>
+    <div class="paper-meta">Solo-authored</div>
+    <ul class="paper-bullets">
+      <li>Presentations: UIUC &middot; FMA 2023 &middot; Southwestern Finance Association 2023 &middot; World Finance Banking Symposium 2022 &middot; New Zealand Finance Meeting 2022</li>
+    </ul>
+    <button class="abs-btn" onclick="tog(this)">[+] Abstract</button>
+    <div class="abs-body">
+      I identify a systemic pattern of inferior investment decisions made by asset management firms in the 401(k)
+      pension business due to conflicts of interest with corporate clients. Business ties between plan sponsors and
+      asset managers lead to portfolio misallocation that systematically reduces beneficiary returns, with
+      implications for the design of fiduciary standards in retirement savings markets.
+    </div>
+  </div>
+
+  <!-- Work in Progress -->
+  <h2>Work in Progress</h2>
+  <hr class="section-rule">
+
+  <div class="wip">What Boards Talk to Decide? Evidence from Public Pension Investments</div>
+  <div class="wip">Measuring Municipal Political Risks</div>
+
+</main>
+</div>
+
+<script>
+function tog(btn) {
+  var ab = btn.nextElementSibling;
+  var isOpen = ab.classList.toggle('open');
+  btn.textContent = isOpen ? '[−] Abstract' : '[+] Abstract';
+}
+</script>
+</body>
+</html>
